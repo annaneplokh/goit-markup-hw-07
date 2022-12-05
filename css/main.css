@@ -914,4 +914,11 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+label span {
+  color: #888;
+}
+label:focus-within span {
+  color: green;
 }/*# sourceMappingURL=main.css.map */
