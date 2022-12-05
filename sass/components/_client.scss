@@ -6,6 +6,9 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     color: $title-text-color;
+    margin-top: 0px;
+
+
 }
 
 .list-clients__link {
@@ -28,7 +31,11 @@
                 border-color: $accent-color;
                 
                 border-radius: 4px;
-        }    
+        }   
+
+
+        
+       
 }
 
 .list-clients__icon {
@@ -47,6 +54,8 @@
     display: flex;
     flex-wrap: wrap;
 
+
+
 }
 
 .list-clients__item {
@@ -55,4 +64,5 @@
     &:last-child {
             margin-right: 0px;
         }
+
 }

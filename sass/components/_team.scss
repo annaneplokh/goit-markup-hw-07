@@ -6,11 +6,13 @@
     letter-spacing: 0.03em;
     color: $title-text-color;
     margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 .list-team {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .list-team__item {
@@ -24,7 +26,10 @@
     &:last-child {
             margin-right: 0px;
         }
+
 }
+
+
 
 .team-bgcolor {
     background-color: $team-bg-color;

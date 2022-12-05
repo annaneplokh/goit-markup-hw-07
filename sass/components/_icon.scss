@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-}
+
+    }
+
 
 .list-icon__link {
     width: 44px;
@@ -19,6 +21,7 @@
             background-color: $accent-color;
             outline: none;
         }
+
 }
 
 .list-icon__img {
@@ -33,4 +36,5 @@
 
 .list-icon__footer {
     fill: #FFFFFF;
+    margin-bottom: 0;
 }

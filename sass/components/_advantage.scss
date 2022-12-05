@@ -9,11 +9,15 @@
     border-radius: 4px;
     padding: 25px 102px;
     margin-bottom: 30px;
+
+
 }
 
 .list-advantage {
     display: flex;
     flex-wrap: wrap;
+
+
 
 }
 
@@ -24,6 +28,7 @@
     &:last-child {
             margin-right: 0px;
         }
+
 }
 
 .list-advantage__title {
@@ -33,6 +38,8 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+
 }
 
 .list-advantage__text {
@@ -41,5 +48,6 @@
     letter-spacing: 0.03em;
     margin-top: 0px;
     margin-bottom: 0px;
+
 
 }

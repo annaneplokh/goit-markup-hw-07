@@ -6,7 +6,9 @@
 .button-portfolio {
     margin-bottom: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .button-portfolio__filter {
@@ -20,7 +22,10 @@
     &:last-child {
             margin-right: 0px;
         }
+
 }
+
+
 
 .list-button {
     padding: 6px 22px;
@@ -70,6 +75,11 @@
     height: 294px;
     overflow: hidden;
 
+
+}
+
+.portfolio-img__card{
+    width: 100%;
 }
 
 .portfolio-img__box {
@@ -125,11 +135,13 @@
     &:nth-last-child(-n+3) {
         margin-bottom: 0px;
     }
+
 }
 
 .portfolio-box {
     width: 300px;
     padding: 20px 24px;
+
 }
 
 .portfolio-box__title {
@@ -141,6 +153,8 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+
 
 }
 
@@ -160,14 +174,14 @@
 }
 
 
-label {
- span {
-  color: #888;
-}
-    &:focus-within{
+// label {
+//  span {
+//   color: #888;
+// }
+//     &:focus-within{
      
- span {
-  color: green;
-}
-    }
-     }
+//  span {
+//   color: green;
+// }
+//     }
+//      }
